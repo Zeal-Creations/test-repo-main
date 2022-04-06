@@ -25,6 +25,14 @@ git subtree pull --prefix ./system https://github.com/Zeal-Creations/test-repo-s
 
 ### 1.2 UPDATE
 
-## Reference
+```shell
+git add .
+git commit -m "xxx"
+git subtree push --prefix=system git@github.com:Zeal-Creations/test-repo-subtree.git main
+```
+
+也可以先推到其它分支再提 `merge request` 到主分支
+
+## 2 Reference
 
 - [Git subtree: the alternative to Git submodule](https://www.atlassian.com/git/tutorials/git-subtree)
